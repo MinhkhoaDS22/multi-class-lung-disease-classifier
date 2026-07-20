@@ -1,0 +1,16 @@
+Model : efficientnet_b5 256px
+Dataset: balanced cap=1500/class
+Loss  : CrossEntropy + LabelSmooth=0.1 (NO class weights)
+Accuracy (TTA×5): 0.9176 (91.76%)
+
+                 precision    recall  f1-score   support
+
+          COVID     0.9698    0.9633    0.9666       300
+       Fibrosis     0.8750    0.8867    0.8808       300
+   Lung_Opacity     0.9321    0.8233    0.8743       300
+         Normal     0.8429    0.9300    0.8843       300
+Viral Pneumonia     0.9852    0.9926    0.9889       269
+
+       accuracy                         0.9176      1469
+      macro avg     0.9210    0.9192    0.9190      1469
+   weighted avg     0.9196    0.9176    0.9175      1469

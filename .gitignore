@@ -1,0 +1,20 @@
+# Datasets & Large Files
+TTTN.zip
+result/best_model.pth
+COVID-19_Radiography_Dataset/
+COVID-19_Radiography_Dataset - Copy/
+VIN/
+VinBigData Chest X-ray Resized JPG (512x512)/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# MacOS
+.DS_Store
