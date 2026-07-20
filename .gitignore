@@ -6,6 +6,21 @@ COVID-19_Radiography_Dataset - Copy/
 VIN/
 VinBigData Chest X-ray Resized JPG (512x512)/
 
+# Unwanted files
+HD_TTTN.doc
+HD_TTTN.txt
+README_MediScan.md
+dan_y.txt
+filter_img.py
+merge_data.py
+ppt.txt
+sample_data.py
+select_ID.py
+train.csv
+train_ai.py
+unique_ID.py
+vin_filtered_by_name.csv
+
 # Python
 __pycache__/
 *.pyc

@@ -46,7 +46,7 @@ Mã nguồn và dữ liệu đã được tối ưu và đóng gói hoàn chỉn
 - `result/`: Thư mục chứa các kết quả đánh giá (Confusion Matrix, Training Curves, Classification Report) và trọng số của mô hình tốt nhất (`best_model.pth`).
 - **Dữ liệu**: Bộ dataset gốc được lưu trong file `TTTN.zip`.
 - `master_data.csv`: File chứa thông tin toàn bộ dữ liệu gốc.
-- `master_data_sampled.csv`: File dữ liệu **rút gọn để cân bằng**, đã trải qua quá trình undersampling giới hạn 1500 mẫu mỗi lớp, giúp đảm bảo quá trình training diễn ra công bằng và ổn định.
+- `master_data_sampled.csv`: File dữ liệu **rút gọn để cân bằng**. Tức là dữ liệu gốc đã được áp dụng phương pháp undersampling (cắt giảm ngẫu nhiên), giới hạn số lượng tối đa 1500 mẫu cho mỗi lớp bệnh. Việc này cực kỳ quan trọng để đảm bảo mô hình huấn luyện học đều các đặc trưng, không bị thiên vị (bias) vào các lớp bệnh có số lượng mẫu áp đảo.
 
 ## 📊 Trực quan hóa Kết quả (Model Performance)
 
